@@ -250,14 +250,6 @@ void sf_free(void *ptr);
 void *sf_memalign(size_t size, size_t align);
 ```
 
-> :scream: <font color="red">Make sure these functions have these exact names
-> and arguments. They must also appear in the correct file. If you do not name
-> the functions correctly with the correct arguments, your program will not
-> compile when we test it. **YOU WILL GET A ZERO**</font>
-
-> Any functions other than `sf_malloc`, `sf_free`, `sf_realloc`, and `sf_memalign`
-> **WILL NOT** be graded.
-
 # Initialization Functions
 
 In the `lib` directory, we have provided you with the `sfutil.o` object file.
